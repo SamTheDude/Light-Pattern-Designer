@@ -4,11 +4,13 @@ Started on Sunday 22nd December 2019.
 Not completed.
 */
 
+
 /*
 ======================
 ===== Mobile CSS =====
 ======================
 */
+
 
 /*===== Site body =====*/
 
@@ -17,8 +19,10 @@ body {
     font-family: "Ubuntu", sans-serif;
 }
 
+
 /*===== Headder bar =====*/
-header{
+
+header {
     background-color: black;
     margin: 0px;
     padding: 10px;
@@ -26,8 +30,10 @@ header{
     color: white;
 }
 
+
 /*===== Footer =====*/
-footer{
+
+footer {
     background-color: rgba(0, 0, 0, 0.4);
     margin: 0px;
     padding: 0px;
@@ -35,19 +41,89 @@ footer{
     color: white;
 }
 
-footer .footerButton{
+footer .footerButton {
     border: 2px solid black;
 }
 
-footer .footerButton:hover{
+footer .footerButton:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-footer p{
+footer p {
     background-color: rgba(0, 0, 0, 0.4);
     margin: 0px;
     padding: 10px;
 }
+
+
+/*===== Information area =====*/
+
+section.instructions {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 10 0 10 0px;
+    padding: 0px;
+    font-size: 1em;
+    color: white;
+}
+
+section.instructions h1 {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 0px;
+    padding: 10px;
+    font-size: 1.4em;
+}
+
+section.instructions p {
+    margin: 0px;
+    padding: 10px;
+}
+
+
+/*==== Contact page main area =====*/
+
+main.contact section {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 10 0 10 0px;
+    padding: 0px;
+    font-size: 1em;
+    color: white;
+}
+
+main.contact section h1 {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 0px;
+    padding: 10px;
+    font-size: 1.4em;
+}
+
+main.contact section p {
+    margin: 0px;
+    padding: 10px;
+}
+
+
+/*==== Accessibility page main area =====*/
+
+main.accessibility section {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 10 0 10 0px;
+    padding: 0px;
+    font-size: 1em;
+    color: white;
+}
+
+main.accessibility section h1 {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 0px;
+    padding: 10px;
+    font-size: 1.4em;
+}
+
+main.accessibility section p {
+    margin: 0px;
+    padding: 10px;
+}
+
 
 /*
 ======================
@@ -55,9 +131,8 @@ footer p{
 ======================
 */
 
-@media only screen and (min-width: 400px){
+@media only screen and (min-width: 400px) {}
 
-}
 
 /*
 =======================
@@ -65,6 +140,4 @@ footer p{
 =======================
 */
 
-@media only screen and (min-width: 1400px){
-
-}
+@media only screen and (min-width: 1400px) {}
