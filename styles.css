@@ -10,7 +10,44 @@ Not completed.
 ======================
 */
 
+/*===== Site body =====*/
 
+body {
+    margin: 0px 0px 0px 0px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+/*===== Headder bar =====*/
+header{
+    background-color: black;
+    margin: 0px;
+    padding: 10px;
+    font-size: 2em;
+    color: white;
+}
+
+/*===== Footer =====*/
+footer{
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    color: white;
+}
+
+footer .footerButton{
+    border: 2px solid black;
+}
+
+footer .footerButton:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+footer p{
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 0px;
+    padding: 10px;
+}
 
 /*
 ======================
